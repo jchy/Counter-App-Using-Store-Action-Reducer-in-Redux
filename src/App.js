@@ -8,7 +8,15 @@ export default function App() {
   const { count } = getState();
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
+      <h1>Simple Counter App Using Redux </h1>
+      <ul style={{ listStyle: "none" }}>
+        <li> Reducer </li>
+        <li> Action </li>
+        <li> Dispatch </li>
+        <li> Subscribe </li>
+        <li> Notification </li>
+        <li> Store </li>
+      </ul>
       <h2>{count}</h2>
       <Counter />
     </div>
